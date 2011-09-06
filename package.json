@@ -1,5 +1,5 @@
 {
-    "name": "TVRec Crawler", 
+    "name": "node-twcrawler-jp", 
     "version": "0.0.1", 
     "private": true, 
     "dependencies": {
@@ -7,6 +7,7 @@
         "ejs": ">= 0.4.3",
         "jsdom": "0.2.1",
         "jquery": "1.6.2",
+        "cradle": "0.5.5",
         "iconv": "1.1.2"
     }
 }
