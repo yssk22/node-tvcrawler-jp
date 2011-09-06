@@ -1,0 +1,12 @@
+{
+    "name": "TVRec Crawler", 
+    "version": "0.0.1", 
+    "private": true, 
+    "dependencies": {
+        "express": "2.4.6",
+        "ejs": ">= 0.4.3",
+        "jsdom": "0.2.1",
+        "jquery": "1.6.2",
+        "iconv": "1.1.2"
+    }
+}

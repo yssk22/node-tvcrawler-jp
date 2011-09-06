@@ -1,0 +1,19 @@
+Content-type: application/x-tv-program-digital-info; charset=shift_jis
+version: 2
+station: DFS00428
+station-name: テレビ朝日
+year: 2011
+month: 07
+date: 25
+start: 07:15
+end: 08:00
+program-title: やじうまテレビ!～マルごと生活情報局～[デ]
+program-id: 57929
+genre-1: 0
+subgenre-1: 0
+genre-2: 0
+subgenre-2: 1
+Copycontrol-1: 1,2,0
+Component-video-1: 179
+
+朝一番に知りたい情報がここにある!政治、経済から芸能までのさまざまな話題をわかりやすくエンターテインメント性豊かに独自の切り口で伝えます。テーマソングは植村花菜

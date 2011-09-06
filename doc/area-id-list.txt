@@ -1,0 +1,62 @@
+放送エリアIDについて
+
+- 地上波:       <select id="area-selector"> のオプション一覧(CATV除く, 一覧参照)
+- BSチャンネル: bs1 または bs2 
+- CATV, スカパーは未対応
+
+地上波の一覧
+
+<option value="10">北海道（札幌）</option>
+<option value="11">北海道（函館）</option>
+<option value="12">北海道（旭川）</option>
+<option value="13">北海道（帯広）</option>
+<option value="14">北海道（釧路）</option>
+<option value="15">北海道（北見）</option>
+<option value="16">北海道（室蘭）</option>
+<option value="22">青森</option>
+<option value="20">岩手</option>
+<option value="17">宮城</option>
+<option value="18">秋田</option>
+<option value="19">山形</option>
+<option value="21">福島</option>
+<option value="26">茨城</option>
+<option value="28">栃木</option>
+<option value="25">群馬</option>
+<option value="29">埼玉</option>
+<option value="27">千葉</option>
+<option value="23">東京</option>
+<option value="24">神奈川</option>
+<option value="31">新潟</option>
+<option value="32">山梨</option>
+<option value="30">長野</option>
+<option value="37">富山</option>
+<option value="34">石川</option>
+<option value="36">福井</option>
+<option value="39">岐阜</option>
+<option value="35">静岡</option>
+<option value="33">愛知</option>
+<option value="38">三重</option>
+<option value="45">滋賀</option>
+<option value="41">京都</option>
+<option value="40">大阪</option>
+<option value="42">兵庫</option>
+<option value="44">奈良</option>
+<option value="43">和歌山</option>
+<option value="49">鳥取</option>
+<option value="48">島根</option>
+<option value="47">岡山</option>
+<option value="46">広島</option>
+<option value="50">山口</option>
+<option value="53">徳島</option>
+<option value="52">香川</option>
+<option value="51">愛媛</option>
+<option value="54">高知</option>
+<option value="55">福岡</option>
+<option value="61">佐賀</option>
+<option value="57">長崎</option>
+<option value="56">熊本</option>
+<option value="60">大分</option>
+<option value="59">宮崎</option>
+<option value="58">鹿児島</option>
+<option value="62">沖縄</option>
+        
