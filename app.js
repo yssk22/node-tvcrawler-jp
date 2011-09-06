@@ -62,17 +62,16 @@ app.post('/ondemand', function(req, res){
 
 // クーロンの登録/実行
 new cron.CronJob('0 0 */6 * * *', function(){
-  logger.info('CronTask started');
   crawler({date: new Date()}, function(err, job){
     if( err ){
-      logger.error('CronTask fail: %s' + JSON.stringify(err, null, 4));
+      logger.error('CronJob fail: %s' + JSON.stringify(err, null, 4));
     }else{
-      logger.info('CronTask succ: %s' + JSON.stringify(job, null, 4));
+      logger.info('CronJob succ: %s' + JSON.stringify(job, null, 4));
     }
   });
 });
 
 app.listen(config.port, function(){
-  logger.debug("Express server listening on port %d in %s mode",
-               app.address().port, app.settings.env);
+  logger.info("Express server listening on port %d in %s mode",
+              app.address().port, app.settings.env);
 });
