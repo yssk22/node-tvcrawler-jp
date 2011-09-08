@@ -8,6 +8,8 @@
         "jsdom": "0.2.1",
         "jquery": "1.6.2",
         "cradle": "0.5.5",
-        "iconv": "1.1.2"
+        "iconv": "1.1.2",
+        "log4js": "0.3.8",
+        "bufferlist": "0.1.0"
     }
 }
