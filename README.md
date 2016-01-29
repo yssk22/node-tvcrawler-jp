@@ -1,6 +1,6 @@
 sorry this program can be useful in Japan only. :P
 
-# node-twcrawler-jp
+# node-tvcrawler-jp
 
 Node.js で実装したTV番組表クローラーの参照実装です。某番組表のHTMLを巡回し、CouchDBに格納します。
 (あくまで参照用のソースなので利用は自己責任でお願いします)
